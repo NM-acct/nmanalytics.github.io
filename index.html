@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noe's Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Noe's Data Analyst Portfolio</h1>
+    <p>📊 Excel · SQL · Power BI · Tableau</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m an aspiring data analyst with hands-on experience in real-world projects using Excel, SQL, Tableau, and Power BI. I love finding insights from messy data and building clean dashboards.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>📈 Project 1: Supermarket Sales Dashboard</h3>
+      <p><strong>Tools:</strong> Excel, Power BI</p>
+      <p>Analyzed 3-month sales data to find trends in profit, best-selling categories, and city performance.</p>
+      <img src="supermarket_analysis_db.png" alt="Supermarket Dashboard" />
+    </div>
+
+    <div class="project">
+      <h3>📊 Project 2: Customer Retention Analysis</h3>
+      <p><strong>Tools:</strong> SQL, Tableau</p>
+      <p>Cleaned a dirty Telco churn dataset using SQL, then created a Tableau dashboard showing churn trends by contract type and tenure.</p>
+      <img src="custmer_retention_db.png" alt="Customer Churn Dashboard" />
+    </div>
+
+    <div class="project">
+      <h3>📦 Project 3: Product Return Dashboard</h3>
+      <p><strong>Tools:</strong> Excel, Power BI</p>
+      <p>Built a return analysis dashboard to track return rates, return costs, and common issues by product and region.</p>
+      <img src="product_return_db.png" alt="Product Return Dashboard" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <form action="https://formspree.io/f/xvgqgekr" method="POST">
+
+      <!-- 🛡️ Hidden anti-spam field -->
+      <input type="text" name="_gotcha" style="display:none" autocomplete="off">
+
+      <label for="name">Your Name:</label><br>
+      <input type="text" name="name" id="name" required autocomplete="name"><br><br>
+
+      <label for="email">Your Email:</label><br>
+      <input type="email" name="email" id="email" required autocomplete="email"><br><br>
+
+      <label for="message">Your Message:</label><br>
+      <textarea name="message" id="message" rows="5" required autocomplete="on"></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 NM Portfolio</p>
+  </footer>
+
+</body>
+</html>
