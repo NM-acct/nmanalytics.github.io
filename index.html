@@ -1,59 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>Noe's Data Analyst Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <header>
-    <h1>Noe's Data Analyst Portfolio</h1>
-    <p>📊 Excel · SQL · Power BI · Tableau</p>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m an aspiring data analyst with hands-on experience in real-world projects using Excel, SQL, Tableau, and Power BI. I love finding insights from messy data and building clean dashboards.</p>
+  <!-- Header -->
+  <section id="header">
+    <header>
+      <span class="image avatar"><img src="images/Moxam_Nigel (1).JPG" alt=""></span>
+      <h1 id="logo"><a href="#">Nigel M</a></h1>
+      <p>Self-taught Data Analyst</p>
+    </header>
+    <nav id="nav">
+      <ul>
+        <li><a href="#one" class="scrolly">About</a></li>
+        <li><a href="#two" class="scrolly">Things I Can Do</a></li>
+        <li><a href="#three" class="scrolly active">Projects</a></li>
+        <li><a href="#four" class="scrolly">Contact</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <ul class="icons">
+        <li><a href="https://www.linkedin.com/in/nigel-moxam/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://github.com/NMAnalytics" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        <li><a href="mailto:nigel.moxam96@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+      </ul>
+    </footer>
   </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
+  <!-- Wrapper -->
+  <div id="wrapper">
 
-    <div class="project">
-      <h3>📈 Project 1: Supermarket Sales Dashboard</h3>
-      <p><strong>Tools:</strong> Excel, Power BI</p>
-      <p>Analyzed 3-month sales data to find trends in profit, best-selling categories, and city performance.</p>
-      <img src="supermarket_analysis_db.png" alt="Supermarket Dashboard" />
-    </div>
+    <!-- About -->
+    <section id="one" class="inactive">
+      <div class="image main" data-position="center">
+        <img src="images/financial-graph-on-technology-abstract-background-picture-id913219882.jpg" alt="">
+      </div>
+      <div class="container">
+        <header class="major">
+          <h2>NMANALYTICS Portfolio</h2>
+        </header>
+        <p>My name is Nigel. I've been working as a behavior therapist but decided to shift careers. I'm great at problem-solving and critical thinking—skills that align with data analysis. I'm excited to work with data and have built projects to prove my capabilities as I pursue a full-time role.</p>
+      </div>
+    </section>
 
-    <div class="project">
-      <h3>📊 Project 2: Customer Retention Analysis</h3>
-      <p><strong>Tools:</strong> SQL, Tableau</p>
-      <p>Cleaned a dirty Telco churn dataset using SQL, then created a Tableau dashboard showing churn trends by contract type and tenure.</p>
-      <img src="custmer_retention_db.png" alt="Customer Churn Dashboard" />
-    </div>
+    <!-- Skills -->
+    <section id="two" class="inactive">
+      <div class="container">
+        <h3>Things I Can Do</h3>
+        <ul class="feature-icons">
+          <li class="icon solid fa-code">SQL & databases</li>
+          <li class="icon solid fa-cubes">Excel & spreadsheets</li>
+          <li class="icon solid fa-book">Tableau for dashboards</li>
+          <li class="icon solid fa-coffee">R for stats</li>
+          <li class="icon solid fa-bolt">Data cleaning</li>
+          <li class="icon solid fa-users">Data storytelling & insights</li>
+        </ul>
+      </div>
+    </section>
 
-    <div class="project">
-      <h3>📦 Project 3: Product Return Dashboard</h3>
-      <p><strong>Tools:</strong> Excel, Power BI</p>
-      <p>Built a return analysis dashboard to track return rates, return costs, and common issues by product and region.</p>
-      <img src="product_return_db.png" alt="Product Return Dashboard" />
-    </div>
-  </section>
+    <!-- Projects -->
+    <section id="three">
+      <div class="container">
+        <h3>Projects</h3>
+        <div class="features">
+          <article>
+            <a href="https://public.tableau.com/app/profile/nmanalytics/viz/Airbnb_16697512458380/Dashboard1" target="_blank" class="image"><img src="images/Airb.jpeg" alt=""></a>
+            <div class="inner">
+              <h4>Airbnb Dashboard</h4>
+              <p>Analyzes Airbnb prices by neighborhood and over time in NYC.</p>
+            </div>
+          </article>
+          <article>
+            <a href="https://github.com/NMAnalytics/Project-1-" target="_blank" class="image"><img src="images/dannys.diner_1_400x300.jpg" alt=""></a>
+            <div class="inner">
+              <h4>SQL Case Study: Danny's Diner</h4>
+              <p>Used SQL to answer business questions for a restaurant based on customer purchases.</p>
+            </div>
+          </article>
+          <article>
+            <a href="https://github.com/NMAnalytics/Project-2" target="_blank" class="image"><img src="images/chart-data-desk.jpg" alt=""></a>
+            <div class="inner">
+              <h4>RFM Sales Analysis</h4>
+              <p>Performed customer segmentation using RFM scores on sample sales data.</p>
+            </div>
+          </article>
+          <article>
+            <a href="https://public.tableau.com/app/profile/nmanalytics/viz/DataProject2_16763968633230/Dashboard4" target="_blank" class="image"><img src="images/inputs_tableau pic.png" alt=""></a>
+            <div class="inner">
+              <h4>Sales Dashboard</h4>
+              <p>Visualized revenue, country distribution, and 9 other sales metrics.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Get in Touch</h2>
-    <form action="https://formspree.io/f/xvgqgekr" method="POST">
-      <input type="text" name="name" placeholder="Your name" required><br><br>
-      <input type="email" name="email" placeholder="Your email" required><br><br>
-      <textarea name="message" rows="5" placeholder="Your message" required></textarea><br><br>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    <!-- Contact -->
+    <section id="four">
+      <div class="container">
+        <h3>Get In Touch</h3>
+        <form action="https://formspree.io/f/xvgqgekr" method="POST">
+          <div class="row gtr-uniform">
+            <div class="col-6 col-12-xsmall">
+              <input type="text" name="name" placeholder="Name" required />
+            </div>
+            <div class="col-6 col-12-xsmall">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+            <div class="col-12">
+              <textarea name="message" placeholder="Message" rows="6" required></textarea>
+            </div>
+            <div class="col-12">
+              <ul class="actions">
+                <li><input type="submit" class="primary" value="Send Message"></li>
+                <li><input type="reset" value="Reset Form"></li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 NM Portfolio</p>
-  </footer>
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <ul class="copyright">
+          <li>&copy; 2025 NM Portfolio</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Scripts (Temporarily disabled to prevent form interference) -->
+  <!--
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  -->
+
 </body>
 </html>
